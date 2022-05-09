@@ -28,9 +28,9 @@ MARSSPEED = 24_000 #m/s
 
 
 
-DISTANCESCALE = 90 / AU
+DISTANCESCALE = 250 / AU
 RADIUSSCALE = 40 / SUNRADIUS
-TIMESCALE = 5 / 5
+TIMESTEP =  1/ 1e6#60**2 * 24 # one day
 
 
 WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))
